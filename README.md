@@ -1,39 +1,70 @@
-# Responsive Portfolio
+# Getting Started with Create React App
 
-Second version of my Responsive Portfolio
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This page uses HTML, CSS, and Bootstrap:
-* 97.8% HTML
-* 2.2% CSS
-* Some Bootstrap Magic (immesurable!)
-* Some Javascript to run the navbar collapsable feature properly
+## Available Scripts
 
-My goal was to create a mobile-friendly and responsive website that would be rendered properly on a variety of different screens, regardless of their sizes.
+In the project directory, you can run:
 
-Navigation bar is collapsable on smaller screens.
-Headers on each page are left-aligned on larger screens. On smaller screens they are centered.
+### `yarn start`
 
-Main page and each sub-page utilize Bootstrap's features.
-Portfolio page uses Bootstrap grid (columns and rows) to visualize my ficticious projects.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Pages do not have any margins on extra small screens - they fill the entire width of the page to better use limited screen size. However, pages have some margins on small & larger screens. However, 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Contact form was added as directed.
+### `yarn test`
 
-My profile picture on index.html is "3-columns" wide, but on smaller screens it fills the whole width.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-I used semantic HTML tags(keeping in mind SEO and accessibility), such as: nav, section, header, footer, figure, and figcaption.
+### `yarn build`
 
-I found a way to create Sticky Footers although I didn't use Bootstrap tools to do so.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-As you can see, I played a little with Bootstrap navigation bar colors and added some background color.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-There are two links to my social media accounts: LinkedIn and Github.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Containers have borders and rounded edges (thanks to Bootstrap's class properties).
+### `yarn eject`
 
-I validated HTML using the W3C Markup Validation Service: https://validator.w3.org/ and it seemed alright.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-There are fewer commits than I made in reality as I started this portfolio again from scratch after I had realized that my css & image links as well as "assets" folder were a bit messy.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![My picture](assets/images/DeathValley.jpg)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
