@@ -1,0 +1,14 @@
+/* .darker {
+  color: gray !important;
+  
+} */
+
+.App {
+
+  font-family: 'Lato', sans-serif !important;
+
+}
+
+.darko {
+  filter: brightness(50%) !important;
+}
