@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAKA,KAEE,uCAEF,CAEA,OACE,wCAAkC,CAAlC,gCACF","file":"main.cb0470ec.chunk.css","sourcesContent":["/* .darker {\n  color: gray !important;\n  \n} */\n\n.App {\n\n  font-family: 'Lato', sans-serif !important;\n\n}\n\n.darko {\n  filter: brightness(50%) !important;\n}"]}
