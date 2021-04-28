@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #0070f0 ; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #0070f0 ; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -422,7 +422,7 @@ ul#nav li.current a { color: #0070f0; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'Lato-semibold', sans-serif;
+   font: 15px/24px 'Lato', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -668,8 +668,8 @@ call-to-action .button {
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
-   font-family: 'Lato';
-   content: "\f10d";
+   font-family: 'Lato', sans-serif;
+   content: url("../favicon.ico");
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
@@ -939,8 +939,8 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #8b8b8b; }
+footer a:hover, footer a:focus { color: #0070f0; }
 
 /* copyright */
 footer .copyright {

@@ -221,11 +221,11 @@ blockquote cite a:visited { color: #8B9798; border: none }
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
 /*
-    <aside class="pull-quote">
+   <aside class="pull-quote">
 		<blockquote>
 			<p></p>
 		</blockquote>
-	 </aside>
+	</aside>
 /*
 /* --------------------------------------------------------------------- */
 .pull-quote {
